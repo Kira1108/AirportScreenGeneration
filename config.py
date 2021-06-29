@@ -32,3 +32,6 @@ LANGUAGE = 'EN'
 
 # 生成多少张图片
 N_IMAGES = 100
+
+# 异常图片文件夹
+ABNORMAL_FODER = "./abnormal_images"
