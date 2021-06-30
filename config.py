@@ -8,8 +8,12 @@ IMAGE_SHAPE = (1500,800,3)
 COLUMN_PROPORTION = [3,4,4,2,2]
 
 # 隔行变色的两种颜色
-ROW_COLOR1 = (0,0,0) #(0,0,233)
-ROW_COLOR2 = (127,127,127)#(127,127,233)
+# ROW_COLOR1 = (0,0,0)
+# ROW_COLOR2 = (127,127,127)
+
+ROW_COLOR1 = (0,0,233)
+ROW_COLOR2 = (127,127,233)
+
 
 # 字体大小
 FONTSIZE = 20
@@ -28,10 +32,10 @@ FONTPATH = "fonts/msyhbd.ttc"
 IMAGE_FOLDER = './images'
 
 # 语言 只支持中文和非中文 非中文就随便写
-LANGUAGE = 'EN'
+LANGUAGE = 'CN'
 
 # 生成多少张图片
-N_IMAGES = 100
+N_IMAGES = 300
 
 # 异常图片文件夹
 ABNORMAL_FODER = "./abnormal_images"
